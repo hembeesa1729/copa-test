@@ -5,7 +5,7 @@
   with:
     # The image reference to patch
     image: 
-    # The trivy json report of the image to patch
+                nginx
     image-report: 
     # The new patched image tag
     patched-tag: 
