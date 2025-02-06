@@ -1,0 +1,18 @@
+            - name: Copacetic Action
+  # You may pin to the exact commit or the version.
+  # uses: project-copacetic/copa-action@9a4406210914e570a473abf3f1e6c4fd952c7749
+  uses: project-copacetic/copa-action@v1.1.0
+  with:
+    # The image reference to patch
+    image: 
+    # The trivy json report of the image to patch
+    image-report: 
+    # The new patched image tag
+    patched-tag: 
+    # The timeout for the copa action
+    timeout: # optional, default is 5m
+    # Buildkit version to use with Copa
+    buildkit-version: # optional
+    # Copa version to use
+    copa-version: # optional
+          
